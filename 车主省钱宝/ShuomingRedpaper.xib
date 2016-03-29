@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShuomingRedpaper">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="红包说明：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXP-FZ-Zbm">
+                    <rect key="frame" x="15" y="48" width="97" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="Qdu-dT-VjD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.获得方式" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lo7-D2-kWW">
+                    <rect key="frame" x="15" y="78" width="83" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="hQA-Dc-u5i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="参与停驶活动，选择停驶的车辆，设置停驶计划（支持7天内的停驶设置），在车辆停驶日的第二天将获得车主余险宝的红包收益，可在我的红包账户中查看。" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8o-mV-Kgw">
+                    <rect key="frame" x="15" y="103" width="290" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="KlY-kK-A1y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.奖惩说明" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN1-Yx-pb0">
+                    <rect key="frame" x="15" y="188" width="83" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="AHh-7k-Fc7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尝试每次只设置一天的停驶计划，可获得更多收益哦。对于在停驶期间出险违章的情况，小宝发现后会有惩罚措施呢，做个诚信的车主吧" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNr-nk-Nit">
+                    <rect key="frame" x="15" y="343" width="290" height="92"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="92" id="a5V-F9-oPe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.红包使用说明" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSX-Vb-ATD">
+                    <rect key="frame" x="15" y="317" width="117" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="rZ6-Cc-QVG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="参与停驶活动的获得的红包收益，只可用于对该停驶车辆（以车牌号为唯一标示）的在线消费，不可转移给其他车辆。投保成功出单后，使用的红包解冻在钱包账户中可提现。" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtN-pK-t2V">
+                    <rect key="frame" x="15" y="216" width="290" height="96"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="96" id="d9p-FC-Nwd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.红包有效期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aF-9u-cSA">
+                    <rect key="frame" x="15" y="440" width="100" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="5ef-xb-kF5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="红包有效期为红包获得日起至次年红包获得日的前一天。" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cps-a4-gla">
+                    <rect key="frame" x="15" y="466" width="290" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="ybR-bt-OAv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cps-a4-gla" firstAttribute="top" secondItem="8aF-9u-cSA" secondAttribute="bottom" constant="5" id="0zf-rs-kz7"/>
+                <constraint firstItem="HNr-nk-Nit" firstAttribute="top" secondItem="MSX-Vb-ATD" secondAttribute="bottom" constant="5" id="3kM-fc-G1d"/>
+                <constraint firstItem="sXP-FZ-Zbm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="7vE-Q8-VKZ"/>
+                <constraint firstItem="MSX-Vb-ATD" firstAttribute="top" secondItem="RtN-pK-t2V" secondAttribute="bottom" constant="5" id="91u-0G-faR"/>
+                <constraint firstItem="8aF-9u-cSA" firstAttribute="top" secondItem="HNr-nk-Nit" secondAttribute="bottom" constant="5" id="CfF-qZ-0Jb"/>
+                <constraint firstItem="fN1-Yx-pb0" firstAttribute="top" secondItem="H8o-mV-Kgw" secondAttribute="bottom" constant="5" id="ETE-gu-zzG"/>
+                <constraint firstItem="HNr-nk-Nit" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="HYs-bK-XXp"/>
+                <constraint firstAttribute="centerY" secondItem="sXP-FZ-Zbm" secondAttribute="centerY" constant="222" id="HaJ-h1-7Ls"/>
+                <constraint firstAttribute="trailing" secondItem="8aF-9u-cSA" secondAttribute="trailing" constant="205" id="JuC-Gc-s79"/>
+                <constraint firstItem="MSX-Vb-ATD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="KIH-OX-lKq"/>
+                <constraint firstItem="H8o-mV-Kgw" firstAttribute="top" secondItem="Lo7-D2-kWW" secondAttribute="bottom" constant="5" id="KaP-EK-Obc"/>
+                <constraint firstItem="8aF-9u-cSA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="O4M-JT-XkD"/>
+                <constraint firstItem="cps-a4-gla" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="P3a-Sh-ukE"/>
+                <constraint firstItem="RtN-pK-t2V" firstAttribute="top" secondItem="fN1-Yx-pb0" secondAttribute="bottom" constant="8" id="WqQ-cs-ej0"/>
+                <constraint firstAttribute="trailing" secondItem="H8o-mV-Kgw" secondAttribute="trailing" constant="15" id="YSd-nS-EvH"/>
+                <constraint firstItem="Lo7-D2-kWW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="YT3-PS-NJu"/>
+                <constraint firstAttribute="trailing" secondItem="HNr-nk-Nit" secondAttribute="trailing" constant="15" id="dRa-cM-6af"/>
+                <constraint firstAttribute="trailing" secondItem="sXP-FZ-Zbm" secondAttribute="trailing" constant="208" id="dqm-vF-Hfc"/>
+                <constraint firstAttribute="trailing" secondItem="RtN-pK-t2V" secondAttribute="trailing" constant="15" id="eLZ-kh-gKe"/>
+                <constraint firstItem="RtN-pK-t2V" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="kck-lP-6bI"/>
+                <constraint firstItem="H8o-mV-Kgw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="pIZ-m3-wkP"/>
+                <constraint firstAttribute="trailing" secondItem="fN1-Yx-pb0" secondAttribute="trailing" constant="222" id="rWL-ed-2QQ"/>
+                <constraint firstAttribute="trailing" secondItem="MSX-Vb-ATD" secondAttribute="trailing" constant="188" id="uLX-9j-rxL"/>
+                <constraint firstAttribute="trailing" secondItem="Lo7-D2-kWW" secondAttribute="trailing" constant="222" id="unW-Qj-W9Z"/>
+                <constraint firstAttribute="trailing" secondItem="cps-a4-gla" secondAttribute="trailing" constant="15" id="vBi-gq-R59"/>
+                <constraint firstItem="fN1-Yx-pb0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="x0h-kk-nFq"/>
+                <constraint firstItem="Lo7-D2-kWW" firstAttribute="top" secondItem="sXP-FZ-Zbm" secondAttribute="bottom" constant="2" id="zZy-mD-YGj"/>
+            </constraints>
+            <point key="canvasLocation" x="106" y="18"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HintView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="行驶证" translatesAutoresizingMaskIntoConstraints="NO" id="AoU-5l-D44">
+                    <rect key="frame" x="8" y="101" width="304" height="233"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="304" id="fNb-lc-zRB"/>
+                        <constraint firstAttribute="height" constant="233" id="p0Q-FG-cZm"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOQ-AA-Kbv">
+                    <rect key="frame" x="287" y="101" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="7VF-At-Wg3"/>
+                        <constraint firstAttribute="width" constant="25" id="rYF-r6-QIA"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="close_40-40">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelview:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Ck-S6-zrb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="AoU-5l-D44" secondAttribute="centerX" id="JrA-Ju-6j5"/>
+                <constraint firstItem="kOQ-AA-Kbv" firstAttribute="leading" secondItem="AoU-5l-D44" secondAttribute="trailing" constant="-25" id="YRA-fR-y3j"/>
+                <constraint firstAttribute="centerY" secondItem="AoU-5l-D44" secondAttribute="centerY" constant="66.5" id="hMg-PS-0LD"/>
+                <constraint firstItem="AoU-5l-D44" firstAttribute="top" secondItem="kOQ-AA-Kbv" secondAttribute="bottom" constant="-25" id="tRg-sU-KAH"/>
+            </constraints>
+            <connections>
+                <outlet property="image" destination="AoU-5l-D44" id="vhP-BJ-iyA"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="315"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_40-40" width="40" height="40"/>
+        <image name="行驶证" width="613" height="403"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
